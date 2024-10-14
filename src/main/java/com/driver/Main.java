@@ -8,10 +8,11 @@ public static class Product{
         return x+y+z;
     };
     public double product(double x, double y) {};
-          return  (double)x+y;
+          return  x+y;
 }
 public class Main {
     public static void main(String[] args) {
         Product p = new Product();
+        System.out.println(p.product();
     }
 }
